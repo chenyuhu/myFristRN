@@ -6,6 +6,8 @@
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "mumu": "adb connect 127.0.0.1:7555",
     "dis-mumu": "adb disconnect 127.0.0.1:7555",
+    "dev": "react-native run-android",
+    "devices": "adb devices",
     "test": "jest"
   },
   "dependencies": {

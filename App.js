@@ -7,7 +7,7 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, TextInput} from 'react-native';
+import {Platform, StyleSheet, Text, View, TextInput, Button} from 'react-native';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -26,6 +26,8 @@ export default class App extends Component<Props> {
         <Text style={styles.instructions}>{instructions}</Text>
         <TextInput
         placeholder={'输入手机号'}></TextInput>
+        <Text style={styles.instructions}></Text>
+        <Button title="按钮" />
       </View>
     );
   }
